@@ -59,19 +59,19 @@ h1, h2 { margin: 0; }
 
 h1 {
 	font-size: 50px;
-	font-weight: 800;
+	font-weight: 850;
 	line-height: 80px;
-	letter-spacing: -0.08em;
+	letter-spacing: 0.1em;
 	color: #161a1b;
 }
 
 h2 {
-	font-size: 18px;
-	font-weight: 800;
-	line-height: 1em;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	color: #161a1b;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 80px;
+	/*line-height: 1em;*/
+	letter-spacing: 0.05em;
+	color: silver;
 }
 
 #countdown div span {
@@ -92,6 +92,7 @@ h2 {
 	font-size: 18px;
 	margin-top: 5px;
 	margin-bottom: 0px;
+	color:pink;
 }
 
 
@@ -326,6 +327,8 @@ h2 {
 
 /* =Responsive Styles
 -------------------------------------------------------------- */
+
+
 
 @media (max-width: 320px) {
 	/* HERO */
@@ -1008,8 +1011,8 @@ h2 {
 	text-transform: uppercase;
 	color: pink;
 	background: transparent;
-	border: 2px solid rgb(192,192,192);
-	border: 2px solid rgba(192,192,192,.1);
+	border: 3px solid rgb(192,192,192);
+	border: 3px solid rgba(192,192,192,.1);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 4px;
