@@ -73,7 +73,12 @@ h2 {
 	letter-spacing: 0.05em;
 	color: silver;
 }
-
+h3
+{
+font-size: 18px;
+letter-spacing: 0.03em;
+color: pink;	
+}
 #countdown div span {
 	display:block;
 	font-size: 50px;
