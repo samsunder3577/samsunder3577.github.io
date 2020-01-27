@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+		<link rel="stylesheet" href="Assets/CSS/main.css">
+		
+	</head>
+
+	<body>
+		<div>
+			<nav class="nav  void-background">
+
+				<div class="nav-left">
+
+				</div>
+				<div class="has-text-centered">					
+					<h3>ADD DISK</h3>
+				</div>
+				<div class="nav-right nav-menu">
+
+				</div>
+
+			</nav>
+		</div>
+
+
+
+
+		<div>
+			<!--button class="button" style="vertical-align:middle"><span>Hover </span></button-->
+			<form action="http://www.google.com" id="DiskForms">
+
+
+				<div id="content1">
+
+					&nbsp Enter Name:<br>
+					<input type="text" name="Enter Name:" value="Name" onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					&nbsp Enter Code Name:<br>
+					<input type="text" name="Enter Code Name:" value="Code Name" onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					&nbsp Enter Manufacturer:<br>
+					<input type="text" name="Enter Manufacturer:" value="Manufacturer" onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					&nbsp Enter Disk Speed:<br>
+					<input type="text" name="Enter Disk Speed:" value=5200 onkeypress='return restrictAlphabets(event)' onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					&nbsp Enter DOM:<br>
+					<input type="text" name="Enter DOM:" value=0 onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					&nbsp Enter Capacity:<br>
+					<input type="text" name="Enter Capacity:" value=0 onkeypress='return restrictAlphabets(event)' onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+				</div>
+
+
+				<div id="content2">
+					&nbsp Enter Used Space:<br>
+					<input type="text" name="Enter Used Space:" value=0 onkeypress='return restrictAlphabets(event)' onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					&nbsp Enter Free Space:<br>
+					<input type="text" name="Enter Free Space:" value=0 onkeypress='return restrictAlphabets(event)' onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					&nbsp Enter Hard Disk Type:<br>
+					<select name="DiskType" form="DiskForms">
+						<option value="HDD">HDD</option>
+						<option value="SSD">SSD</option>
+					</select>
+					<br>
+					&nbsp Enter Hard Disk Form:<br>
+					<select name="DiskForm" form="DiskForms">
+						<option value="Internal">Internal</option>
+						<option value="External">External</option>
+						<option value="Internal/External">Internal/External</option>
+					</select>
+					<br>
+					
+					&nbsp Upload Icon:<br>
+					<input type="file" name="Upload Icon" accept="image/*">
+					<br>
+					&nbsp Enter Serial Number:<br>
+					<input type="text" name="Enter Name:" value="Serial Number" onfocus="inputFocus(this)" onblur="inputBlur(this)">
+					<br>
+					<br><br>
+				</div>
+
+
+				<div class="centrer">
+					<input type="submit" value="Submit" id="Addbtn">
+				</div>
+			</form> 
+
+		</div>
+		<script src="Assets/JS/Numeric.js"></script>
+		<script src="Assets/JS/modernizr.custom.js"></script>
+	</body>
+
+</html>
