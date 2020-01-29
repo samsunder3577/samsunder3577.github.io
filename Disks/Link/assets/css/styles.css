@@ -5,7 +5,9 @@ html, body{
 }
 
 a {
-  color: #00d1b2;
+  color:#bbbbbb;
+  font-size:20px;
+  
 }
 h3
 {
@@ -28,8 +30,8 @@ section{
 }
 
 .section-1 {
-	background: #252527;
-	
+	background: #252526;
+	height:252px;
 	
 }
 
@@ -39,7 +41,9 @@ section{
 }
 
 .section-3 {
-	background-color: #0E282E;
+	background-color: #1e1e1e;
+	height:252px;
+	
 }
 
 .section-4 {
@@ -56,8 +60,22 @@ a.nav-item:hover {
 }
 
 .avatar{
-	height:150px;
+	height:220px;
 	width:auto;
+	
+}
+
+.centrer {
+  position:relative;
+  left:20px;
+  bottom:32px;
+
+}
+.centrer1 {
+  position:relative;
+  right:10px;
+  bottom:45px;
+
 }
 
 .intro-description{
@@ -119,3 +137,40 @@ a.nav-item:hover {
 	}
 
 }
+
+
+
+#content1 {
+	float: left;
+	width: 20%;
+	height:auto;
+	background-color: transparent;
+}
+#content2 {
+	float: left;
+	width: 40%;
+	background-color: transparent;
+}
+#content3 {
+	float: left;
+	width: 40%;
+	background-color: transparent;
+}
+
+
+
+
+table {
+  
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  
+}
+
+td, th {
+  
+  color:#bbbbbb !important;
+  text-align: left;
+  padding: 8px;
+}
+
