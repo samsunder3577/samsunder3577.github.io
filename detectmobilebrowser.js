@@ -7,8 +7,8 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 if(isMobile==true)
 {
-	window.location="Mobile.html";
+	window.location="Mobile/Mobile.html";
 }
 else
-	window.location="PC.html";
+	window.location="PC/PC.html";
 }

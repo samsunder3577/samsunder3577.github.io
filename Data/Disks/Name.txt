@@ -1,0 +1,11 @@
+Name
+Code Name
+Manufacturer
+5200
+0
+0
+0
+0
+SSD
+External
+Serial Number
